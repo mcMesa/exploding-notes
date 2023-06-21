@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="175dd3b5-8f89-4e2f-8fda-086073ea4da2" name="Changes" comment="" />
+    <list default="true" id="175dd3b5-8f89-4e2f-8fda-086073ea4da2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/mcmesa/explodingnotes/CustomerRepositoryCommandLineRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/mcmesa/explodingnotes/domain/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/mcmesa/explodingnotes/repository/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/mcmesa/explodingnotes/controller/GreetingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/mcmesa/explodingnotes/controller/RoutingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/exploding-notes-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/exploding-notes-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/exploding-notes-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/exploding-notes-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-06-20T17-31-17_327-jvmRun1.dump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-06-20T17-31-17_327-jvmRun1.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.github.mcmesa.explodingnotes.ExplodingNotesApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.github.mcmesa.explodingnotes.ExplodingNotesApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.github.mcmesa.explodingnotes.ExplodingNotesApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.github.mcmesa.explodingnotes.ExplodingNotesApplicationTests.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +46,7 @@
     </option>
   </component>
   <component name="ProjectId" id="2RTWO4QpaUmpSQJwAj50pevsPKl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -51,7 +69,8 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "reference.idesettings.debugger.capture",
+    "spring.configuration.checksum": "47a867740be95b33703cfcd949878dbc",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -83,11 +102,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1687274515862</updated>
-      <workItem from="1687274516941" duration="1511000" />
+      <workItem from="1687274516941" duration="1928000" />
+      <workItem from="1687336394336" duration="11752000" />
+      <workItem from="1687352514041" duration="3510000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
   </component>
 </project>

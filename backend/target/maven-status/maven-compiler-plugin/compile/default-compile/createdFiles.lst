@@ -1,1 +1,5 @@
+com\github\mcmesa\explodingnotes\entity\Customer.class
+com\github\mcmesa\explodingnotes\controller\GreetingController.class
+com\github\mcmesa\explodingnotes\service\CustomerDAOService.class
 com\github\mcmesa\explodingnotes\ExplodingNotesApplication.class
+com\github\mcmesa\explodingnotes\CustomerDAOServiceCommandLineRunner.class
