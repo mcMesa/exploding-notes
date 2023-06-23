@@ -7,12 +7,12 @@ jobs:
     steps:
       - name: Show github event and target platform
         run: echo "🎉 Job was triggered by the ${{ github.event_name }} event and is running on a ${{ runner.os }} server."
-      - name: Check out repository
-        uses: actions/checkout@v3
       - uses: actions/setup-java@v3
         with:
           distribution: 'oracle'
           java-version: '17'
+      - name: Check out repository
+        uses: actions/checkout@v3
       - name: Navigate to folder and install maven
         working-directory: ./backend
         run: mvn install
