@@ -6,19 +6,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Show github event and target platform
-        run: echo "🎉 Job was triggered by the ${{ github.event_name }} event and is running on a ${{ runner.os }} server."
-      - uses: actions/setup-java@v3
+        run: echo "🎉 Job was triggered by the ${{ github.event_name }} event and is running on a ${{ runner.os }} serv
+      - name: Check out repository
+        uses: actions/checkout@v3er."
+      - name: Setup Java version
+        uses: actions/setup-java@v3
         with:
           distribution: 'oracle'
           java-version: '17'
-      - name: Check out repository
-        uses: actions/checkout@v3
-      - name: Navigate to folder and install maven
+      - name: Install maven
         working-directory: ./backend
         run: mvn install
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
       - name: Run tests
+        working-directory: ./backend
         run: mvn test
       - run: echo "🍏 This job's status is ${{ job.status }}."
