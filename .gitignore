@@ -1,3 +1,26 @@
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
 ## IDE files
+# IntelliJ
 .idea
+*.ipr
+*.iml
+*.iws
+
+# Visual Studio Code
 .vscode
+.factorypath
+
+# Local environment
+.env
+
+# docker data
+dev_env/db
+
+node_modules
+
+.DS_Store
